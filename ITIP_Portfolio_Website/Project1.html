@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukesh- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;          
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;            
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+            position: fixed;
+            top: 0;
+            width: 100%;        
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(166, 160, 152);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #7b7bb7;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+            padding-top: 80px;
+            
+        }
+
+        .firstSecton > div{  
+            width: 30%;
+        }
+
+        .secondSection {
+            padding-top: 80px;
+        }
+
+        .secondSection .about {
+            padding: 29px 103px;
+            font-size: 1.5rem;
+        }
+
+        .secondSection h3 {
+            font-size: 1.5rem;
+            /* align-items: end; */
+            
+        }
+
+        .thirdSection {
+            padding-top: 80px;
+        }
+
+        .thirdSection .exp {
+            padding: 29px 103px;
+            font-size: 1.5rem;
+        }
+        
+        .thirdSection h3 {
+            font-size: 1.5rem;
+        }
+
+        .fourthSection {
+            padding-top: 80px;
+        }
+
+        .fourthSection .pro {
+            padding: 29px 103px;
+            font-size: 1.5rem;
+        }
+
+        .fourthSection h3 {
+            font-size: 1.5rem;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+        }
+
+        .leftSection .buttons {
+            padding: 24px;
+        }        
+
+        .leftSection .btn{
+            padding: 12px;
+            background: #2f2f47;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img{   
+            width: 95%;
+        }
+        .purple {
+            color:rgb(122, 93, 150);
+        }
+        #element{
+            color:rgb(122, 93, 150);
+        }
+
+        footer{
+            background-color: #392539;
+            /* height: 230px;  */
+            /* padding-top: 80px; */
+        }
+        /* .footer{
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0px;
+        } */
+
+        footer .footer-first{
+            display: flex;
+            justify-content: center;
+        }
+
+        footer .footer_image{
+            display: flex;
+            justify-content: end;
+            padding: 0px 100px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0px;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mukesh Kumar</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#first">Home</a></li>
+                    <li><a href="#second">About</a></li>
+                    <li><a href="#third">Experience</a></li>
+                    <li><a href="#fourth">Projects</a></li>
+                    <li><a href="#fiveth">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="firstSection" id="first">
+            <div class="leftSection">
+                My name is <span class="purple">Mukesh</span>
+                <div>And I am a passionate</div>
+                <span id="element"></span><br>
+                <div class="buttons">
+                <buttons class="btn">Download Resume</buttons>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="image.jpg" alt="image" width="600" height="400">
+            </div>
+        </section>
+
+<hr id="second">
+        <section class="secondSection">
+            <h3 align="center">About Me</h3>
+            <div class="about">
+               Name: Mukesh Kumar <br>        
+               Place: Deoghar, Jharkhand <br>
+               Education: 10th from Krishna Sudarshan Central School, Bermo <br>
+               <div class="school">12th from Indian Heritage School, Jasidih</div>
+                           
+               Strenght: Dedicated, Self-motivated and Self-disciplined person<br>
+               Weakness: Overthinking <br>
+               Hobbies: Playing Cricket and Chess, reading Books <br>
+            </div>
+        </section>
+<hr id="third">        
+        <section class="thirdSection">
+            <h3 align = "center">Experience</h3>
+            <div class="exp">
+                <h4>Siemens PLC</h4><br>
+                
+                <ul>
+                    <li>Siemens PLC Programming (S7-1200).</li>
+                    <li>Developed and implemented PLC logic using ladder logic and function block diagrams in Siemen TIA Portal.</li>
+                </ul>
+                <br>
+                <h4>Google Cloud Study Jam Participant</h4>
+                <br>
+                
+                <ul>
+                    <li>Attended a Google Cloud Study Jam workshop series focused on Google Cloud Platform (GCP) technologies.</li>
+                    <li>Completed hands-on labs covering various GCP services, including Compute Engine, BigQuery, and Kubernetes Engine.</li>
+                    <li>Received a certificate of participation and recognition for completing all study jam activities.</li>
+                </ul>
+            </div>
+<hr id="fourth">            
+        <section class="fourthSection">
+            <h3 align="center">Academeic Projects</h3>
+            <div class="pro">
+            <h4>JK FLIP FLOP PROJECTS</h4>
+            <br>
+
+            <ul>
+                <li>Proficient in designing and analyzing sequential logic circuits using JK flip-flops and other digital logic components.</li>
+                <li>Demonstrated understanding of JK flip-flop operation, including characteristic behaviors such as toggling, presetting, and clearing.</li>
+                <li>Hands-on experience in breadboarding, testing, and debugging digital circuits, ensuring functionality and reliability.</li>
+            </ul>
+
+            </div>
+        </section>
+
+        </section>        
+        <br>
+        <br>
+    </main>
+
+    <footer>
+        <div class="footer" id="fiveth"> 
+            <div class="footer-first">
+                <h3>Contact Me</h3>
+            </div>
+            <div class="footer_image">
+                <a href="https://github.com/Mukeshkumar127" target="_blank">
+                <img src="Github1.png" alt="#" width="40px" height="40px" style="margin: 0px 4px;">
+                </a>
+                <a href="https://in.linkedin.com/in/mukesh-kumar-80650a279" target="_blank">
+                <img src="linked.png" alt="#" width="40px" height="40px" style="margin: 0px 4px;">
+                </a>
+                <a href="https://x.com/MukeshK75579138" target="_blank">
+                <img src="twitter.png" alt="#" width="40px" height="40px" style="margin: 0px 4px;">
+                </a>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.mukeshportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html
